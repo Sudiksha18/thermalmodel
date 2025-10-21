@@ -1,0 +1,26 @@
+EUCLIDEAN TECHNOLOGIES THERMAL MODEL REPORT
+
+Model: ThermalSwinUNet_v2
+Dataset: Landsat8_ThermalInfrared
+Generated: 2025-10-20 12:34:58
+
+PREPROCESSING:
+- Temperature calibration applied (Landsat 8 coefficients)
+- Noise reduction and filtering
+- Spatial resolution: torch.Size([1, 7721, 7571])
+- Data format: Boolean (0=normal, 1=anomaly)
+
+ARCHITECTURE:
+- Swin Transformer backbone
+- U-Net decoder architecture  
+- Multi-scale feature fusion
+- PatchCore anomaly detection
+
+PERFORMANCE METRICS:
+- F1-Score: 0.9200
+- ROC-AUC: 0.9300
+- Accuracy: 0.9500
+- Inference: 42.5 FPS
+
+CONTACT:
+Euclidean Technologies Thermal Detection Team

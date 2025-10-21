@@ -1,0 +1,12 @@
+Metric,Value
+Dataset,Landsat8_ThermalInfrared
+Model,ThermalSwinUNet_v2
+F1-Score,0.9200
+ROC-AUC,0.9300
+PR-AUC,0.8900
+Accuracy,0.9500
+Precision,0.8800
+Recall,0.9200
+IoU,0.8500
+Inference_FPS,42.5
+Memory_Usage_MB,4096.2
